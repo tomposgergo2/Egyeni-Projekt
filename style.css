@@ -2,3 +2,15 @@
     padding-left: auto !important;
     padding-right: auto !important;
 }
+
+body{
+    background-color: blanchedalmond;
+
+}
+
+.erdekesseg{
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    cursor: help;
+    
+}
