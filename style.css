@@ -17,3 +17,7 @@ body{
 .card{
     border-radius: 40px;
 }
+
+.pull-right{
+    float: right !important;
+}
