@@ -1,17 +1,6 @@
-<!DOCTYPE html>
-<html lang="hu">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Madarak</title>
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="style.css">
-</head>
-
 <body class="fst-italic">
   <div class="container bg-dark">
-    <h1 class="p-3 text-center fw-bold text-light">Madarak</h1>
+    <h1 class="p-3 text-center fw-bold text-light"></h1>
 
     <!-- Navbar -->
 
@@ -31,7 +20,7 @@
                 <a class="nav-link" href="emlosok.html">Emlősök</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="madarak.html">Madarak</a>
+                <a class="nav-link" href="madarak.html">Madarak</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="hullok.html">Hüllők</a>
@@ -53,11 +42,7 @@
     <div class="container-sm align-justify text-light">
       <div class="row p-5">
         <div class="col-12 col-md-9">
-          A világ 10000 madárfajából 371 fordul elő itt. <br>
-          A szirti sas szárnyfesztávolsága a 2 métert is eléri, nálunk rendszeresen költ 1-3 pár az Északi-középhegységben, télen olykor a Hortobágyon lehet megfigyelni őket. <br>
-          A vándorsólyom kozmopolita ragadozómadár, a világ leggyorsabban repülő madara. <br>
-          A fácán nálunk betelepített madárfaj, a kakasnak feltűnő a tollruhája, a tyúk egyszerű. <br> 
-          A rózsás gödény és a borzas gödény nálunk alkalmi vendégek. <br>
+          
         </div>
 
         <!-- Képek  -->
@@ -71,13 +56,13 @@
             </div>
             <div class="carousel-inner rounded-3">
               <div class="carousel-item active" dat a-bs-interval="3000">
-                <img src="kepek/szirtisas.jpg" class="d-block w-100" alt="Szirti sas">
+                <img src="" class="d-block w-100" alt="">
               </div>
               <div class="carousel-item" data-bs-interval="3000">
-                <img src="kepek/szencinege.jpg" class="d-block w-100" alt="Széncinege">
+                <img src="" class="d-block w-100" alt="">
               </div>
               <div class="carousel-item" data-bs-interval="3000">
-                <img src="kepek/Fácán.jpg" class="d-block w-100" alt="Fácánkakas">
+                <img src="" class="d-block w-100" alt="">
               </div>
             </div>
           </div>
@@ -98,14 +83,14 @@
         <div class="card mb-3" style="max-width: 800px;">
           <div class="row">
             <div class="col-md-4">
-              <img src="https://cdn.pixabay.com/photo/2017/04/20/22/50/golden-eagle-2247269__480.jpg" class="img-fluid rounded-3 m-3 w-100" alt="">
+              <img src="" class="img-fluid rounded-3 m-3 w-100" alt="">
             </div>
             <div class="col-md-8">
               <div class="card-body">
-                <h4 class="card-title">Szirti sas</h4>
+                <h4 class="card-title"></h4>
                 <ul class="card-text">
-                  <li>A szirti sas a madarak osztályának vágómadár-alakúak tartozó faj.</li>
-                  <li>Magányosan vagy párban él. Főként emlősökre és madarakra vadászik, de jelentős mértékben dögevő. </li>
+                  <li></li>
+                  <li></li>
                 </ul>
               </div>
             </div>
@@ -209,4 +194,3 @@
   </div>   
   <script src="js/bootstrap.js"></script>
 </body>
-</html>
