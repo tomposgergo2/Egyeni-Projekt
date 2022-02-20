@@ -4,9 +4,10 @@
 }
 
 body{
-    background-color: blanchedalmond;
-
+    background-image: url(https://cdn.pixabay.com/photo/2020/07/26/08/12/pattern-5438743_960_720.png);
+    
 }
+
 
 .erdekesseg{
     text-decoration: underline;
@@ -21,3 +22,4 @@ body{
 .pull-right{
     float: right !important;
 }
+
