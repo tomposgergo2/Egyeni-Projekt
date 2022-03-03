@@ -1,50 +1,229 @@
 <!DOCTYPE html>
 <html lang="hu">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kétéltűek</title>
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kétéltűek</title>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body class="fst-italic">
-    <h1 class="p-3 text-center fw-bold">Kétéltűek</h1>
+  <div class="container bg-dark">
+    <h1 class="p-3 text-center fw-bold text-light">Kétéltűek</h1>
+
     <!-- Navbar -->
 
     <div class="container-sm">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light  rounded-3">
-          <div class="container-fluid">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"  data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light rounded-3">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0 fw-bold">
-                <li class="nav-item">
-                  <a class="nav-link" href="index.html">Főoldal</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="emlosok.html">Emlősök</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="madarak.html">Madarak</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="hullok.html">Hüllők</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active" href="keteltuek.html">Kétéltűek</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="halak.html">Halak</a>
-                </li>
-              </ul>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 fw-bold">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Főoldal</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="emlosok.html">Emlősök</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="madarak.html">Madarak</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="hullok.html">Hüllők</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="keteltuek.html">Kétéltűek</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <!-- Szöveg -->
+
+    <div class="container-sm align-justify text-light">
+      <div class="row p-5">
+        <div class="col-12 col-md-9">
+          A kétéltűek (Amphibia) a gerincesek egy osztálya, a Kárpát-medencében békák, varangyok, gőték és szalamandrák
+          tartoznak ide. A legkezdetlegesebb szárazföldi gerinces állatok, utódai a kb. 370 millió évvel ezelőtt a
+          szárazföldre vetődött, igen hasonló élőlényeknek. Ma élő minden harmadik fajukat a kihalás fenyegeti.
+        </div>
+
+        <!-- Képek  -->
+
+        <div class="col-12 col-md-3">
+          <div id="carouselExampleIndicators" class="carousel slide mt-5" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner rounded-3">
+              <div class="carousel-item active" dat a-bs-interval="3000">
+                <img src="kepek/gote.jpg" class="d-block w-100" alt="Közönséges tarajosgőte">
+              </div>
+              <div class="carousel-item" data-bs-interval="3000">
+                <img src="kepek/varangy.jpg" class="d-block w-100" alt="Zöld varangy">
+              </div>
+              <div class="carousel-item" data-bs-interval="3000">
+                <img src="kepek/beka.jpg" class="d-block w-100" alt="Kecskebéka">
+              </div>
             </div>
           </div>
-        </nav>
+        </div>
       </div>
-    
+    </div>
 
-    <script src="js/bootstrap.js"></script>
+    <!-- Példák -->
+
+    <div class="container-sm">
+      <h1>
+        Példák
+      </h1>
+    </div>
+
+    <section>
+      <div class="container-sm">
+        <div class="card mb-3" style="max-width: 800px;">
+          <div class="row">
+            <div class="col-md-4">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Fire_salamander_female.jpg/300px-Fire_salamander_female.jpg"
+                class="img-fluid rounded-3 m-3 w-100" alt="Foltos szalamandra">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h4 class="card-title">Foltos szalamandra</h4>
+                <ul class="card-text">
+                  <li>A foltos szalamandra a kétéltűek osztályába tartozó, Európában jól ismert védett állat. Több
+                    alfaját különböztetik meg.</li>
+                  <li>Európában az északi részek kivételével, Nyugat-Ázsiában, Észak-Afrikában fordul elő.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container-sm">
+        <div class="card mb-3 mx-auto" style="max-width: 800px;">
+          <div class="row">
+            <div class="col-md-4">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Bombina_bombina_2_%28Marek_Szczepanek%29.jpg/390px-Bombina_bombina_2_%28Marek_Szczepanek%29.jpg"
+                class="img-fluid rounded-3 m-3 w-100" alt="Vöröshasú unka">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h4 class="card-title">Vöröshasú unka</h4>
+                <ul class="card-text">
+                  <li>A vöröshasú unka a kétéltűek osztályának békák rendjébe, ezen belül az unkafélék családjába
+                    tartozó faj.</li>
+                  <li>Európa területén honos. A növényzettel sűrűn benőtt, gyorsan felmelegedő vízfoltok lakója.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container-sm">
+        <div class="card mb-3 pull-left" style="max-width: 800px;">
+          <div class="row">
+            <div class="col-md-4">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Alpenmolch_Alpine_Newt_Triturus_alpestris.jpg/390px-Alpenmolch_Alpine_Newt_Triturus_alpestris.jpg"
+                class="img-fluid rounded-3 m-3 w-100" alt="Alpesi gőte">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h4 class="card-title">Alpesi gőte</h4>
+                <ul class="card-text">
+                  <li>Az alpesi gőte a kétéltűek osztályába, a farkos kétéltűek rendjébe, ezen belül a szalamandrafélék
+                    családjába tartozó faj.</li>
+                  <li>Magyarországon a legmagasabb természetvédelmi értékkel védett faj a kétéltűek közül.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container-sm">
+        <div class="card mb-3 mx-auto" style="max-width: 800px;">
+          <div class="row">
+            <div class="col-md-4">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Rzekotka_drzewna_2.jpg/390px-Rzekotka_drzewna_2.jpg"
+                class="img-fluid rounded-3 m-3 w-100" alt="Zöld levelibéka">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h4 class="card-title">Zöld levelibéka</h4>
+                <ul class="card-text">
+                  <li>A zöld levelibéka a kétéltűek osztályába a békák rendjébe és a levelibéka-félék családjába tartozó
+                    faj.</li>
+                  <li>Ligetes folyóvölgyek, tavak, víz közeli bokrosok, kertek, erdőszélek, nádasok, ezekkel határos
+                    füves területeken él.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container-sm">
+        <div class="card mb-3 pull-left" style="max-width: 800px;">
+          <div class="row">
+            <div class="col-md-4">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Triturus_vulgaris_maennchen.jpeg/390px-Triturus_vulgaris_maennchen.jpeg"
+                class="img-fluid rounded-3 m-3 w-100" alt="Pettyes gőte">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h4 class="card-title">Pettyes gőte</h4>
+                <ul class="card-text">
+                  <li>A pettyes gőte a kétéltűek osztályának farkos kétéltűek rendjébe, ezen belül a szalamandrafélék
+                    családjába tartozó faj.</li>
+                  <li>Nemének a típusfaja.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <br>
+
+
+
+
+
+
+
+  </div>
+  <script src="js/bootstrap.js"></script>
 </body>
+
 </html>

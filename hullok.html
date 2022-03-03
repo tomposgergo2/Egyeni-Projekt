@@ -1,50 +1,219 @@
 <!DOCTYPE html>
 <html lang="hu">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hülllők</title>
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hülllők</title>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body class="fst-italic">
-    <h1 class="p-3 text-center fw-bold">Hüllők</h1>
+  <div class="container bg-dark">
+    <h1 class="p-3 text-center fw-bold text-light">Hüllők</h1>
 
     <!-- Navbar -->
 
     <div class="container-sm">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light  rounded-3">
-          <div class="container-fluid">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"  data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light rounded-3">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0 fw-bold">
-                <li class="nav-item">
-                  <a class="nav-link" href="index.html">Főoldal</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="emlosok.html">Emlősök</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="madarak.html">Madarak</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active" href="hullok.html">Hüllők</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="keteltuek.html">Kétéltűek</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="halak.html">Halak</a>
-                </li>
-              </ul>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 fw-bold">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Főoldal</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="emlosok.html">Emlősök</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="madarak.html">Madarak</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="hullok.html">Hüllők</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="keteltuek.html">Kétéltűek</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <!-- Szöveg -->
+
+    <div class="container-sm align-justify text-light">
+      <div class="row p-5">
+        <div class="col-12 col-md-9 text-light">
+          A világ 7900 hüllőfajából 15 fordul elő Magyarországon. A mocsári teknős az egyetlen itteni
+          teknősfaj, a faj nevéből ki lehet következtetni, hogy a mocsaras területeken él. A hüllőfajok többsége a
+          pikkelyes hüllők rendjébe tartozik. Az elevenszülő gyíknak van egy érdekessége, az
+          anyaállat testébe fejlődnek a tojások, amíg az július-augusztusban le nem rakja őket. A keresztes vipera
+          ez a kígyófaj a jellegzetes mintázatáról kapta nevét. Mérges kígyó, ritkán mar meg embert. A
+          pannon gyík a vakondgyíkfélék avagy szkinkek családjának egyetlen itteni
+          képviselője. A hazai siklófélék marása nem mérgező, de a haragos
+          sikló a veszélyforrásokkal szemben agresszív tud lenni. Nálunk 5 siklófaj honos: erdei sikló,
+          haragos sikló , kockás sikló , rézsikló, vízisikló.
+        </div>
+
+        <!-- Képek  -->
+
+        <div class="col-12 col-md-3">
+          <div id="carouselExampleIndicators" class="carousel slide mt-5" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner rounded-3">
+              <div class="carousel-item active" dat a-bs-interval="3000">
+                <img src="kepek/mocsari-teknos.jpg" class="d-block w-100" alt="Mocsári teknős">
+              </div>
+              <div class="carousel-item" data-bs-interval="3000">
+                <img src="kepek/pannon.jpg" class="d-block w-100" alt="Pannon gyík">
+              </div>
+              <div class="carousel-item" data-bs-interval="3000">
+                <img src="kepek/siklo.jpg" class="d-block w-100" alt="Kockás sikló">
+              </div>
             </div>
           </div>
-        </nav>
+        </div>
       </div>
+    </div>
 
-    <script src="js/bootstrap.js"></script>
+    <!-- Példák -->
+
+    <div class="container-sm">
+      <h1>
+        Példák
+      </h1>
+    </div>
+
+    <section>
+      <div class="container-sm">
+        <div class="card mb-3" style="max-width: 800px;">
+          <div class="row">
+            <div class="col-md-4">
+              <img src="kepek/Keresztes vipera.jpg" class="img-fluid rounded-3 m-3 w-100" alt="Keresztes vipera">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h4 class="card-title">Keresztes vipera</h4>
+                <ul class="card-text">
+                  <li>A keresztes vipera egy eurázsiai kígyóféle, a rákosi vipera mellett ez Magyarország két mérges kígyófajának egyike.</li>
+                  <li>Nevét jellegzetes mintázatáról kapta. A népnyelv régen kurta farkú kígyónak nevezte.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container-sm">
+        <div class="card mb-3 mx-auto" style="max-width: 800px;">
+          <div class="row">
+            <div class="col-md-4">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Poloz%2C_Ochakiv.jpg/390px-Poloz%2C_Ochakiv.jpg" class="img-fluid rounded-3 m-3 w-100" alt="Haragos sikló">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h4 class="card-title">Haragos sikló</h4>
+                <ul class="card-text">
+                  <li>A kaszpi haragossikló egy termetes eurázsiai kígyófaj, amely nevét a potenciális veszélyforrásokkal szemben tanúsított agresszív viselkedéséről kapta.</li>
+                  <li>Régebben alfajként tartották nyilván Coluber jugularis caspius néven.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container-sm">
+        <div class="card mb-3 pull-left" style="max-width: 800px;">
+          <div class="row">
+            <div class="col-md-4">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Couleuvre_Esculape59.JPG/390px-Couleuvre_Esculape59.JPG" class="img-fluid rounded-3 m-3 w-100" alt="Erdei sikló">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h4 class="card-title">Erdei sikló</h4>
+                <ul class="card-text">
+                  <li>Az erdei sikló egy eurázsiai kígyófaj, amely az ókorban a gyógyítás istene, Aszklépiosz egyik attribútuma volt.</li>
+                  <li>Aszklépiosz botja a rátekeredő erdei siklóval a mai napig egészségügyi szimbólum.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container-sm">
+        <div class="card mb-3 mx-auto" style="max-width: 800px;">
+          <div class="row">
+            <div class="col-md-4">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/1/17/Schlingnatter.jpg" class="img-fluid rounded-3 m-3 w-100" alt="Rézsikló">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h4 class="card-title">Rézsikló</h4>
+                <ul class="card-text">
+                  <li>A rézsikló egy elterjedt európai kígyófaj. Tudományos nevének jelentése: „osztrák koronácska” onnan ered, hogy leírója, Joseph Laurenti a tarkóján látható mintázatot az osztrák címer kétfejű sasához hasonlította.</li>
+                  <li>A faj az Atlanti-óceántól a Kaszpi-tengerig Európa nagy részén előfordul</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container-sm">
+        <div class="card mb-3 pull-left" style="max-width: 800px;">
+          <div class="row">
+            <div class="col-md-4">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Natrix_natrix_%28Marek_Szczepanek%29.jpg/390px-Natrix_natrix_%28Marek_Szczepanek%29.jpg" class="img-fluid rounded-3 m-3 w-100" alt="Vízisikló">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h4 class="card-title">Vízisikló</h4>
+                <ul class="card-text">
+                  <li>A vízisikló egy közismert és elterjedt eurázsiai, nevével ellentétben nem szorosan a vízhez kötődő kígyófaj.</li>
+                  <li>A vízisikló nagy területen, az Atlanti-óceántól a Bajkál-tóig megtalálható északon egészen a 67° északi szélességi körig.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <br>
+
+
+
+
+
+
+
+  </div>
+  <script src="js/bootstrap.js"></script>
 </body>
+
 </html>
